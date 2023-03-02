@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-gray-900 font-openSans text-sm;
+}
+
+h1#menuTitle {
+  color: #332900;
+  -webkit-text-fill-color: #ffd833;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #745e19;
+}

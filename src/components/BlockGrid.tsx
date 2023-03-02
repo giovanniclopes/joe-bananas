@@ -11,7 +11,7 @@ export default function BlockGrid() {
       <SearchFilter />
       <div className="flex justify-around items-center content-center gap-2 my-12 px-12 mbl:flex mbl:flex-col mbl:items-center mbl:justify-center mbl:gap-12">
         <BlockItem
-          link="/blog/banana-prata"
+          link="/banana-prata"
           imageURL={BananaPrata}
           title={"Banana Prata"}
           description={
@@ -19,7 +19,7 @@ export default function BlockGrid() {
           }
         />
         <BlockItem
-          link="/blog/banana-maca"
+          link="/banana-maca"
           imageURL={BananaMaca}
           title={"Banana Maçã"}
           description={
@@ -27,7 +27,7 @@ export default function BlockGrid() {
           }
         />
         <BlockItem
-          link="/blog/banana-nanica"
+          link="/banana-nanica"
           imageURL={BananaNanica}
           title={"Banana Nanica"}
           description={

@@ -30,8 +30,8 @@ export function Header() {
       <nav
         className={
           fix
-            ? "z-50 fixed top-0 w-full h-16 flex items-center justify-between py-3 px-8 mx-auto bg-headerBg bg-no-repeat bg-cover bg-fixed transition-all md:items-center mbl:px-4"
-            : "z-50 fixed top-0 w-full h-24  flex items-center justify-between py-3 px-8 mx-auto bg-headerBg bg-no-repeat bg-cover bg-fixed transition-all md:items-center mbl:px-4"
+            ? "z-50 fixed top-0 w-full h-16 flex items-center justify-between py-3 px-8 mx-auto bg-violet-300/70 bg-no-repeat bg-cover bg-fixed transition-all md:items-center mbl:px-4"
+            : "z-50 fixed top-0 w-full h-24  flex items-center justify-between py-3 px-8 mx-auto bg-violet-500 bg-no-repeat bg-cover bg-fixed transition-all md:items-center mbl:px-4"
         }
       >
         <Link to="/">

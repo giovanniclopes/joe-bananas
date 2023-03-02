@@ -14,7 +14,7 @@ export default function BlockItem(props: BlockItemProps) {
       <div className="flex flex-col w-[390px] pb-12 shadow-lg shadow-black-100">
         <div>
           <img
-            className="w-96 h-64 rounded rounded-b-none"
+            className="w-full h-64 rounded rounded-b-none"
             src={props.imageURL}
             alt={props.imageALT}
           />

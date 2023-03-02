@@ -45,12 +45,12 @@ export function Header() {
         <div
           className={
             togglerNav
-              ? "absolute left-0 top-0 w-screen mt-16 bg-headerBg bg-no-repeat bg-cover bg-fixed border-t border-yellow-400 p-6 flex items-left flex-col gap-4 text-yellow-800 font-medium font-openSans text-lg md:flex md:items-center"
-              : "hidden gap-4 text-yellow-800 font-medium font-openSans text-lg md:flex md:items-center"
+              ? "absolute left-0 top-0 w-screen mt-16 bg-headerBg bg-no-repeat bg-cover bg-fixed border-t border-yellow-400 p-6 flex items-left flex-col gap-4 text-white font-medium font-openSans text-lg md:flex md:items-center"
+              : "hidden gap-4 text-white font-medium font-openSans text-lg md:flex md:items-center"
           }
         >
           <NavLink
-            className="transition-all hover:text-yellow-700"
+            className="transition-all hover:text-yellow-300"
             onClick={clickHandler}
             to="/"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
@@ -58,7 +58,7 @@ export function Header() {
             Home
           </NavLink>
           <NavLink
-            className="transition-all hover:text-yellow-700"
+            className="transition-all hover:text-yellow-300"
             onClick={clickHandler}
             to="/blog"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
@@ -66,7 +66,7 @@ export function Header() {
             Blog
           </NavLink>
           <NavLink
-            className="transition-all hover:text-yellow-700"
+            className="transition-all hover:text-yellow-300"
             onClick={clickHandler}
             to="/contact"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}

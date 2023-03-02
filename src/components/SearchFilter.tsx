@@ -21,10 +21,10 @@ export default function SearchFilter() {
   };
 
   return (
-    <div className=" p-4 mt-10 border-none sm:mt-2">
-      <div className="flex justify-center items-center sm:flex-col sm:gap-4">
+    <div className=" p-4 mt-10 border-none mbl:mt-2">
+      <div className="flex justify-center items-center mbl:flex-col mbl:gap-4">
         <span className="mr-5">Filtrar por</span>
-        <div className="flex gap-2 sm:flex-row">
+        <div className="flex gap-2 mbl:flex-col">
           <SearchButton primary>Relevância</SearchButton>
           <SearchButton secondary>Mais Recente</SearchButton>
           <SearchButton secondary>Em destaque</SearchButton>

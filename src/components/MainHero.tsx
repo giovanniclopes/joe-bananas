@@ -4,7 +4,7 @@ import { CaretDown } from "phosphor-react";
 
 export default function MainHero() {
   return (
-    <div className="flex flex-col items-center justify-center gap-36 h-full">
+    <div className="flex flex-col items-center justify-center gap-36 h-full mbl:gap-12">
       <div className="flex flex-row gap-12 mbl:flex-col">
         <div className="flex flex-row items-center justify-end mbl:justify-center">
           <img

@@ -27,9 +27,9 @@ export default function ArticleItem(props: ArticleItemProps) {
           />
         </div>
         <div className="flex items-center justify-center mt-12 mb-12">
-          <h3 className="font-extrabold text-5xl">{props.title}</h3>
+          <h3 className="font-extrabold text-5xl mbl:text-3xl">{props.title}</h3>
         </div>
-        <div className="flex flex-col gap-7 px-36">
+        <div className="flex flex-col gap-7 px-36 mbl:px-12">
           <div>
             <h4 className="text-xl mb-2 font-bold">{props.t1Desk1}</h4>
             <p className="text-base font-normal text-black-800">

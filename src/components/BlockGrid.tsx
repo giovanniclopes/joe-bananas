@@ -9,7 +9,7 @@ export default function BlockGrid() {
   return (
     <div>
       <SearchFilter />
-      <div className="grid grid-cols-3 items-center content-center gap-6 my-12 px-12">
+      <div className="flex justify-around items-center content-center gap-2 my-12 px-12 mbl:flex mbl:flex-col mbl:items-center mbl:justify-center mbl:gap-12">
         <BlockItem
           link="/blog/banana-prata"
           imageURL={BananaPrata}

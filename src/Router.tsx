@@ -14,9 +14,9 @@ export function Router() {
       <Route path="/contact" element={<Contact />} />
 
       {/* Bananas */}
-      <Route path="/blog/banana-prata" element={<BananaPrata />} />
-      <Route path="/blog/banana-maca" element={<BananaMaca />} />
-      <Route path="/blog/banana-nanica" element={<BananaNanica />} />
+      <Route path="/banana-prata" element={<BananaPrata />} />
+      <Route path="/banana-maca" element={<BananaMaca />} />
+      <Route path="/banana-nanica" element={<BananaNanica />} />
     </Routes>
   );
 }

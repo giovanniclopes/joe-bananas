@@ -6,6 +6,7 @@ module.exports = {
       screens: {
         mbl: { max: "630px" }, // mbl == mobile
         // => @media (max-width: 630px) { ... }
+        
       },
       fontFamily: {
         openSans: "Open Sans, sans-serif",

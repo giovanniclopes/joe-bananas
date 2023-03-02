@@ -50,7 +50,10 @@ export default function ArticleItem(props: ArticleItemProps) {
           </div>
           <Link to="/blog">
             <button className="flex flex-row items-center justify-start gap-1 text-base border-2 border-gray-300 rounded-lg p-2 px-7 group transition-all hover:border-gray-400">
-              <ArrowUDownLeft className="text-gray-300 group-hover:text-gray-500" size={19} />
+              <ArrowUDownLeft
+                className="text-gray-300 group-hover:text-gray-500"
+                size={19}
+              />
               Voltar
             </button>
           </Link>

@@ -9,7 +9,7 @@ export function Blog() {
         <BlockItems />
       </div>
     </div>
-  )
+  );
 }
 
 export default Blog;

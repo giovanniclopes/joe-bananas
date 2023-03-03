@@ -6,7 +6,6 @@ module.exports = {
       screens: {
         mbl: { max: "630px" }, // mbl == mobile
         // => @media (max-width: 630px) { ... }
-        
       },
       fontFamily: {
         openSans: "Open Sans, sans-serif",
@@ -14,6 +13,7 @@ module.exports = {
       },
       backgroundImage: {
         headerBg: "url(../src/assets/bg-header.webp)",
+        BGform: "url(../src/assets/BGform.jpg)",
       },
       colors: {
         black: {
@@ -36,8 +36,8 @@ module.exports = {
           600: "#565b66",
           700: "#40444d",
           800: "#2b2e33",
-          900: "#15171a"
-},
+          900: "#15171a",
+        },
         yellow: {
           100: "#fff5cc",
           200: "#ffeb99",
@@ -104,8 +104,8 @@ module.exports = {
           600: "#cc587e",
           700: "#99425e",
           800: "#662c3f",
-          900: "#33161f"
-},
+          900: "#33161f",
+        },
       },
     },
   },
